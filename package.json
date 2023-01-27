@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-typescript-esm-example",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "prestart": "npm run build",
+    "start": "node --experimental-loader ./loader.js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ståle Tomten",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "4.17.16",
+    "@types/node": "18.11.18",
+    "rimraf": "4.1.2",
+    "typescript": "4.9.4"
+  },
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
