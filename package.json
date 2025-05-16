@@ -13,7 +13,7 @@
   "author": "Ståle Tomten",
   "license": "ISC",
   "devDependencies": {
-    "@types/express": "4.17.21",
+    "@types/express": "4.17.22",
     "@types/node": "22.15.9",
     "rimraf": "5.0.5",
     "typescript": "5.8.3"
